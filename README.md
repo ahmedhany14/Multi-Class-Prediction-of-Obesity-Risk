@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 
-  <h3 align="center"> Multi-Class-Prediction-of-Obesity-Risk </h3>
+  <h3 align="center"> Multi Class Prediction of Obesity Risk </h3>
 </p>
 
 ## Table of Contents
@@ -62,5 +62,5 @@ The dataset used in this project from Kaggle, to download it use this [link](htt
 ## Deplyment and run the application
 
 #### open Terminal in VS code, and write following commands
-        cd "App"
+        cd "src"
         streamlit run App.py
