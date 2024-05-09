@@ -116,15 +116,3 @@ class Encode(BaseEstimator, TransformerMixin):
 
 feature_construction = Feature_Construction()
 encode = Encode()
-import pickle
-
-
-processing_pipeline = Pipeline(
-    [
-        ("feature_construction", feature_construction),
-        ("encode", encode),
-    ]
-)
-
-with open("models_processing_pipeline.pkl", "wb") as file:
-    pickle.dump(processing_pipeline, file)
